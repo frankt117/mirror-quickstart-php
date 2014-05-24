@@ -18,11 +18,11 @@
 
 // TODO: You must configure these fields for the starter project to function.
 // Visit https://developers.google.com/glass/getting-started to learn more
-$api_client_id = "API_CLIENT_ID";
-$api_client_secret = "API_CLIENT_SECRET";
-$api_simple_key = "API_KEY";
+$api_client_id = "775935942427-2p1kg6lluu7ve6r8ghr4l8gris8roops.apps.googleusercontent.com";
+$api_client_secret = "AuKiG9YDW6MTlWe8zjOoZlkp";
+$api_simple_key = "";
 
-$base_url = "http://localhost/mirror-quickstart-php";
+$base_url = "http://glass.franktorresjr.com/test";
 
 // This should be writable by your web server's user
 $sqlite_database = "/tmp/database.sqlite";

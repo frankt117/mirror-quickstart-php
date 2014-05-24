@@ -35,6 +35,7 @@ if (!isset($_SESSION['userid']) || get_credentials($_SESSION['userid']) == null)
 
 // A glass service for interacting with the Mirror API
 $mirror_service = new Google_MirrorService($client);
+echo ('<pre>'.print_r($base_url,1).'</pre>');
 
 // But first, handle POST data from the form (if there is any)
 switch ($_POST['operation']) {
@@ -171,7 +172,7 @@ foreach ($subscriptions->getItems() as $subscription) {
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <a class="brand" href="#">Glassware Starter Project: PHP Edition</a>
+      <a class="brand" href="#">Glassware TEST</a>
     </div>
   </div>
 </div>
